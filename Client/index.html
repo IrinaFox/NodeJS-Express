@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>getTime</title>
+
+        <link rel="stylesheet" href="style/main.css">
+
+        <script src="script/libs/jquery-3.2.0.min.js"></script>
+        <script src="script/libs/underscore.js"></script>
+        <script src="script/libs/backbone.js"></script>
+        <script src="script/libs/Mediator.js"></script>
+
+        <script src="script/getTimeView.js"></script>
+        <script src="script/getNamesView.js"></script>
+        <script src="script/load.js"></script>
+
+        <script src="script/main.js"></script>
+
+        <script src="script/load/StudentList/Tpl/ItemTpl.js"></script>
+        <script src="script/load/StudentList/Tpl/HeaderTpl.js"></script>
+
+        <script src="script/load/StudentList/Model/Student.js"></script>
+        <script src="script/load/StudentList/Model/StudentList.js"></script>
+
+        <script src="script/load/StudentList/View/ItemView.js"></script>
+        <script src="script/load/StudentList/View/StudentListView.js"></script>
+
+        <script src="script/load/StudentList/Controller.js"></script>
+    </head>
+    <body>
+        <div class="block">
+            <input type="button" value="Get Names" class="buttonGetNames"/>
+            <div id="namesContent"></div>
+        </div>
+        <div class="block">
+            <input type="button" value="Get Time" class="buttonGetTime"/>
+            <div id="timeContent"></div>
+        </div>
+        <div class="block">
+            <input type="button" value="Load" class="buttonLoad"/>
+        </div>
+            <div id="contentStudentList"></div>
+    </body>
+</html>

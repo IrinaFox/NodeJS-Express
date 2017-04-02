@@ -1,0 +1,116 @@
+div {
+    border: 1px black solid;
+}
+
+.block {
+    border: 1px black solid;
+    display: inline-block;
+    background-color: #f1f5a7;
+    vertical-align: top;
+}
+input {
+    display: block;
+}
+
+#timeContent {
+    border: none;
+}
+#namesContent {
+    border: none;
+}
+
+#contentStudentList {
+    border: 3px #00d0d0 solid;
+    background-color: #7bfada;
+    padding: 5px;
+    display: inline-block;
+}
+
+.miniDiv {
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
+}
+
+.line {
+    background-color: #e3fff1;
+    display: block;
+    border: none;
+}
+
+#menu {
+    background-color: cadetblue;
+}
+
+.pic {
+    width: 15px;
+    height: 15px;
+}
+
+.button {
+    margin: auto;
+}
+
+.miniDivButton {
+    display: inline-block;
+    width: 80px;
+    padding: 5px;
+}
+
+#additionalStudentList {
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    background-color: #e3fff1;
+}
+.infoWindow {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 20px;
+    background-color: #e8ebea;
+}
+
+.infoDiv {
+    float: none;
+    width: 200px;
+    margin: 0;
+}
+
+.buttonClose {
+    margin: auto;
+    float: right;
+    background-color: #c6c6c6;
+}
+.divInfoHeader {
+    width: 150px;
+    display: inline-block;
+}
+.divInfoValue {
+    width: 200px;
+    float: none;
+}
+
+#editForm {
+    width: 400px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.labelEdit {
+    display: inline-block;
+    width: 100px;
+    border: none;
+}
+
+.editElement {
+    width: 200px;
+}
+
+.buttonSave {
+    float: right;
+}
+
+.editDiv {
+    width: 350px;
+}
